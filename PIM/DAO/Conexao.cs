@@ -9,7 +9,7 @@ namespace PIM.DAO
 {
     class Conexao
     {
-        public SqlConnection Conn = new SqlConnection(@"Data Source=LDR\SQLEXPRESS;Initial Catalog=SistemaHotel;Integrated Security=True");
+        public SqlConnection Conn = new SqlConnection(@"");
 
         public void Open()
         {
